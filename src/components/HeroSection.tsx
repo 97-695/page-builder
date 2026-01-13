@@ -5,11 +5,6 @@ const HeroSection = () => {
   return (
     <section className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-4xl">
-        <div className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-black mb-8 tracking-tight">
-            GB
-          </h1>
-        </div>
         
         <CountdownTimer />
         
@@ -26,7 +21,6 @@ const HeroSection = () => {
             <span className="text-highlight-red">com</span>
             <br />
             <span className="text-highlight-red">método britânico!</span>
-            <span className="text-foreground"> GB</span>
           </h2>
           
           <p className="text-muted-foreground text-base md:text-lg mb-8 max-w-2xl mx-auto">
