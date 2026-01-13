@@ -1,10 +1,14 @@
 import { Send, AlertTriangle, Check, Lock, Shield } from "lucide-react";
 import CountdownTimer from "./CountdownTimer";
+import ukFlag from "@/assets/uk-flag.png";
 
 const HeroSection = () => {
   return (
     <section className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-4xl">
+        <div className="text-center mb-8">
+          <img src={ukFlag} alt="UK Flag" className="w-16 h-auto mx-auto" />
+        </div>
         
         <CountdownTimer />
         
