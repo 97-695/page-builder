@@ -35,10 +35,15 @@ const HeroSection = () => {
             milhares de pessoas. Sem precisar aparecer, sem precisar vender!
           </p>
           
-          <button className="cta-button px-8 py-4 md:px-12 md:py-5 rounded-lg font-bold text-lg md:text-xl uppercase tracking-wide flex items-center gap-3 mx-auto mb-6">
+          <a 
+            href="https://t.me/newwmoney" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="cta-button px-8 py-4 md:px-12 md:py-5 rounded-lg font-bold text-lg md:text-xl uppercase tracking-wide flex items-center gap-3 mx-auto mb-6"
+          >
             <Send className="w-5 h-5 md:w-6 md:h-6" />
             Quero entrar no grupo VIP
-          </button>
+          </a>
           
           <div className="flex items-center justify-center gap-2 text-highlight-yellow mb-8">
             <AlertTriangle className="w-4 h-4" />
