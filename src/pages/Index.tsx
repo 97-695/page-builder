@@ -1,6 +1,7 @@
 import UrgencyBanner from "@/components/UrgencyBanner";
 import HeroSection from "@/components/HeroSection";
 import MoneySection from "@/components/MoneySection";
+import ExitPopup from "@/components/ExitPopup";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <UrgencyBanner />
       <HeroSection />
       <MoneySection />
+      <ExitPopup delaySeconds={20} />
     </div>
   );
 };
